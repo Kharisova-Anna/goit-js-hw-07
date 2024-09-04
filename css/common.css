@@ -63,7 +63,6 @@ button {
   padding: 8px 16px;
 }
 
-
 img {
   display: block;
   object-fit: cover;
@@ -76,3 +75,125 @@ img {
   justify-content: center;
 }
 
+#name-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin-bottom: 16px;
+}
+
+#name-input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding: 8px 16px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+}
+
+.login-form label {
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.login-form input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+.login-form button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  border: none;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.widget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} 
+
+.widget p {
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-bottom: 16px;
+}
+
+.change-color {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  border: none;
+  background: #4e75ff;
+}
+
+#controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+#controls input[type="number"] {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  background: #f6f6fe;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+#controls button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+#controls button[data-create] {
+  background: #4e75ff;
+}
+
+#controls button[data-destroy] {
+  background: #ff4e4e;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+}
